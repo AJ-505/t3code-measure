@@ -23,4 +23,4 @@ jobs:
         run: git clone --depth 1 --branch tmp/measurements https://github.com/AJ-505/t3code.git work
       - name: Measure
         working-directory: work
-        run: bash .ci-control.sh
+        run: bash .ci-typecheck-detail.sh
